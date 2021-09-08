@@ -179,13 +179,13 @@ html {
     text-align: center;
 }
 #slider .text-slider-heading {
-    font-size:  24px;
+    font-size:  30px;
     font-weight: 600;
     
 }
 #slider .text-decription {
-    font-size: 15px;
-    margin-top: 25px;
+    font-size: 25px;
+    margin-top: 15px;
 }
 
 /* Content */
@@ -195,6 +195,7 @@ html {
 }
 #content .content-section {
     max-width: 800px;
+    min-height: 750px;
     margin-left: auto;
     margin-right: auto;
     padding: 64px 16px;
@@ -216,13 +217,13 @@ html {
 }
 #content .about-text {
     font-size: 15px;
-    margin-top: 25px;
+    margin-top: 65px;
     text-align: justify;
     line-height: 1.4;
 }
 
 #content .member-list {
-    margin-top: 47px;
+    margin-top: 70px;
 }
 #content .member-item {
     float: left;
@@ -236,10 +237,10 @@ html {
 
 }
 #content .member-img {
-    width: 154px;
+    width: 170px;
     margin-top: 15px;
     border-radius: 4px;
-    max-height: 170px;
+    max-height: 190px;
 }
 
 /* Tour-heading */
@@ -434,11 +435,19 @@ html {
 
 
 /* contact */
+.contact-section {
+    max-width: 800px;
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 16px;
+}
 
 .contact-content {
-    margin-top: 48px;
+    margin-top: 80px;
     
 }
+
 
 .contact-infor {
     font-size: 18px;
@@ -478,7 +487,7 @@ html {
 
 /* footer */
 #footer {
-    padding:  64px 16px;
+    padding:  90px 16px;
     text-align: center;             
 }
 #footer .social-list {
